@@ -126,6 +126,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Common\" />
     <Folder Include="Views\Car\" />
     <Folder Include="Views\Index\" />
     <Folder Include="Views\User\" />
