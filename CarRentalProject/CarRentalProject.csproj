@@ -101,6 +101,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\Cars\CarController.cs" />
+    <Compile Include="Controllers\Home\IndexController.cs" />
+    <Compile Include="Controllers\Users\UserController.cs" />
     <Compile Include="Models\Car.cs" />
     <Compile Include="Models\CarRentalModel.cs" />
     <Compile Include="Global.asax.cs">
@@ -123,7 +126,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
+    <Folder Include="Views\Car\" />
+    <Folder Include="Views\Index\" />
+    <Folder Include="Views\User\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
